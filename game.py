@@ -9,7 +9,7 @@ while True:
     user_choice = input("\nEnter Rock, Paper, or Scissors (or 'quit' to exit): ").lower()
 
     if user_choice == "quit":
-        print("Thanks for playing! Goodbye 👋")
+        print("Thank you for playing! Goodbye ")
         break
     if user_choice not in choices:
         print("❌ Invalid choice! Please enter Rock, Paper, or Scissors.")
