@@ -14,4 +14,4 @@ The computer randomly selects a choice, and you can see if you win, lose, or tie
 
 ---
 
-## 📂 Project Structure
+
