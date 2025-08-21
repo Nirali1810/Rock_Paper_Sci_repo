@@ -1,6 +1,6 @@
 import random
 
-print("🎮 Welcome to Rock, Paper, Scissors! 🎮")
+print("🎮 Welcome to Rock, Paper, Scissors! Let’s see if you can beat the computer! 🤖")
 
 choices = ["rock", "paper", "scissors"]
 
@@ -9,7 +9,7 @@ while True:
     user_choice = input("\nEnter Rock, Paper, or Scissors (or 'quit' to exit): ").lower()
 
     if user_choice == "quit":
-        print("Thank you for playing! Goodbye ")
+        print("Thanks for playing! Goodbye 👋")
         break
     if user_choice not in choices:
         print("❌ Invalid choice! Please enter Rock, Paper, or Scissors.")
